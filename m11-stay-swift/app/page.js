@@ -1,6 +1,6 @@
 import Search from '@/components/search/Search';
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <section className="bg-[#F6F3E9] h-screen max-h-screen relative grid place-items-center bg-[url('/hero-bg.jpg')] bg-cover bg-no-repeat bg-center">
       <div className="container items-center pb-12 ">
@@ -19,3 +19,5 @@ export const HomePage = () => {
     </section>
   );
 };
+
+export default HomePage;
