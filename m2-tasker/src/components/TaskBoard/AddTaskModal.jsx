@@ -28,10 +28,7 @@ const AddTaskModal = ({
       value = value.split(','); // convert string into an array
     }
 
-    setTask({
-      ...task,
-      [name]: value,
-    });
+    setTask({ ...task, [name]: value });
   };
 
   return (
